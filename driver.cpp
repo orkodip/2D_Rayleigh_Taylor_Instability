@@ -1,5 +1,4 @@
 //SOLUTION OF NAVIER STOKES EQUATION IN A CONSERVATIVE FINITE DIFFERENCE DISCRETIZATION TECHNIQUE IN A SEMI-COLOCATED GRID USING A BALANCED FORCE METHOD.
-//THE ADVECTION SCHEME IS QUICK WITH FIRST ORDER UPWIND. FDQGMRES IS USED TO SOLVE THE LINEAR SYSTEMS.
 #include<iostream>
 #include<fstream>
 #include<cmath>
@@ -8,7 +7,7 @@
 #include<ctime>
 #define TRUNC_L 1e-7	//volume fraction lower truncation criteria
 #define TRUNC_U 1e-7	//volume fraction upper truncation criteria
-#define EPS 1e-6	//DO NOT CHANGE THESE TWO CONSTANTS
+#define EPS 1e-6
 #define SMALL 1e-8
 #define TOL 1e-6	//convergence criteria for FDQGMRES solver
 using namespace std;
