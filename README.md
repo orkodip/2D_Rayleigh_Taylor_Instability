@@ -22,7 +22,7 @@ sudo apt install build-essential
 To compile the code
 
 ```bash
-g++ ht.cpp -o output
+g++ driver.cpp -o output
 ```
 To run this code
 
